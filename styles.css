@@ -7,24 +7,30 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
+  align-items: center;
   box-sizing: border-box;
   width: 100%;
   height: 1600px;
-
-  padding: 20px 30px;
-
+  padding: 20px 20px;
   background: #b2e0b2;
 }
 
 .gallery-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
   width: 32%;
-  margin-bottom: 10px;
+  margin-bottom: 11px;
   padding: 10px;
   background-color: #ffffff;
   box-shadow: 0 2px 2px rgba(53, 53, 53, 0.05),
     0 4px 4px rgba(145, 145, 145, 0.05), 0 8px 8px rgb(0 90 250 / 5%),
     0 16px 16px rgba(138, 138, 138, 0.05);
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(106, 101, 133);
+  border-radius: 5px;
 }
 
 .gallery-item:nth-child(3n + 1) {
